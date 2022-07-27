@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    border: 5px solid black;
+    margin: 50px;
+    display: flex;
+    padding: 50px;
+}
+
+div img {
+    width: 50%;
+    height: auto;
+}
+
+#one {
+    background-color: #00a000;
+    justify-content: center;
+}
+
+#two {
+    background-color: #4444c6;
+    justify-content: flex-end;
+}
+
+#three {
+    background-color: #721414;
+    justify-content: space-between;
+}
+
+#four {
+    background-color: #cdcd37;
+    justify-content: space-around;
+}
+
+#five {
+    background-color: #7c007c;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
